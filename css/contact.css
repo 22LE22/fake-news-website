@@ -1,0 +1,51 @@
+/* Contact form styles */
+label {
+    color: white;
+}
+
+input[type="text"] {
+    width: 100%;
+    color: white;
+    background-color: #5a4b6f;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: ease-in-out 150ms;
+}
+
+input[type="text"]:hover {
+    background-color: white;
+    color: red;
+    transform: translateY(-3px);
+}
+
+input[type="button"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+input[type="button"]:active {
+    background-color: #45a049;
+    transform: translateY(7px);
+}
+
+#form_box {
+    background-color: #483958;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}

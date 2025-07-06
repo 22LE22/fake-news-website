@@ -1,0 +1,19 @@
+/* Source link styles */
+a.source_link {
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #483958;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    padding: 12px 12px;
+    display: inline-block;
+    transition: ease-in-out 150ms;
+}
+
+a.source_link:hover {
+    color: #ff0000;
+    transform: translateY(-3px);
+    background-color: #ffffff;
+}

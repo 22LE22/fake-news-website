@@ -1,0 +1,61 @@
+/* Article of the day styles */
+.main_article {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main_article_bg:hover {
+    background-color: #5a4b6f;
+    transform: translateY(-3px);
+}
+
+.main_article_bg {
+    background-color: #483958;
+    width: 99%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 150ms;
+}
+
+.main_article_image {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main_article_text {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+
+/* Recent articles styles */
+.recent_article {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.recent_article_bg:hover {
+    background-color: #5a4b6f;
+    transform: translateY(-3px);
+}
+
+.recent_article_bg {
+    background-color: #483958;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 150ms;
+}
+
+.recent_article_image {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recent_article_text {
+    padding: 10px;
+    font-size: 1em;
+}
