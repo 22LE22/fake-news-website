@@ -1,0 +1,64 @@
+/* Main CSS file for the website */
+/* This file contains styles for the layout, typography, and various components of the website, including the navbar and content*/
+* {
+    border-radius: 10px;
+}
+
+body {
+    background-color: #271f30;
+    color: white;
+    font-family: Google Sans, sans-serif;
+}
+
+
+/* Main content styles */
+#maincontentbg {
+    background-color: #352a42;
+    width: 100%;
+    text-align: left;
+    text-indent: 5px;
+}
+
+#maincontent {
+    padding: 5px;
+}
+
+#footer {
+    color: #463855;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+
+/* Navbar styles */
+#title {
+    color: white;
+    text-align: left;
+    font-size: 200%;
+}
+
+#navbar {
+    padding: 5px;
+    width: 100%;
+}
+
+a.navbarbutton {
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    width: 100%;
+    padding: 16px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+
+a.navbarbutton:hover {
+    color: #ff0000;
+    transform: translateY(-3px);
+    background: white;
+}

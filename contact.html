@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webpage - Contact</title>
+
+        <!--Style-->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+    </head>
+    <body>
+        <!--Navbar-->
+        <table id="navbar" align="center">
+            <tr>
+                <td id="title"><b>📢 REAL BREAKING NEWS! 📢</b></td>
+                <td><a class="navbarbutton" href="index.html">Home</a></td>
+                <td><a class="navbarbutton" href="about.html">About</a></td>
+                <td>
+                    <a
+                        class="navbarbutton"
+                        href="contact.html"
+                        style="background-color: #ffffff; color: #ff0000"
+                        >Contact</a
+                    >
+                </td>
+                <td><a class="navbarbutton" href="links.html">Links</a></td>
+            </tr>
+        </table>
+
+        <!--Main Box-->
+        <div id="maincontentbg" align="center" width="750">
+            <div id="maincontent">
+                <h1 align="center">📞 Contact Us</h1>
+                <p align="center">
+                    We value your feedback and inquiries. Please feel free to
+                    reach out to us through the following channels:
+                </p>
+
+                <div id="form_box">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input
+                            type="text"
+                            id="fname"
+                            name="firstname"
+                            placeholder="Your name.."
+                        />
+
+                        <label for="lname">Last Name</label>
+                        <input
+                            type="text"
+                            id="lname"
+                            name="lastname"
+                            placeholder="Your surname.."
+                        />
+
+                        <label for="country">Country</label>
+                        <input
+                            type="text"
+                            id="country"
+                            name="country"
+                            placeholder="Your country.."
+                        />
+
+                        <label for="country">Email</label>
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Your email.."
+                        />
+
+                        <input type="button" value="Submit" />
+                    </form>
+                </div>
+
+                <br />
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div id="footer">This is an educational website</div>
+    </body>
+</html>
